@@ -13,3 +13,7 @@
 ### Verified Open-Source Proof (`@NiranjankumarKatragadda`)
 - [5-Stage RV32I SoC (Sky130 · 13/13 cf-precheck)](https://github.com/NiranjankumarKatragadda/riscv-rv32i-physical-design) · [4×4 Systolic Array (IHP SG13G2)](https://github.com/NiranjankumarKatragadda/ihp-sg13g2-systolic-array) · [16-Beat AXI4 DMA (IHP SG13G2)](https://github.com/NiranjankumarKatragadda/ihp-sg13g2-axi4-dma)
 - [4×4 NoC Mesh VIP](https://github.com/NiranjankumarKatragadda/noc-mesh-4x4-cocotb-vip) ([3D Demo](https://niranjankumarkatragadda.github.io/noc-mesh-3d.html)) · [Async CDC FIFO VIP](https://github.com/NiranjankumarKatragadda/async-cdc-fifo-cocotb-vip) · [AXI4-Stream Arbiter VIP](https://github.com/NiranjankumarKatragadda/axis-skid-arbiter-cocotb-vip) · [8b/10b SerDes PRBS VIP](https://github.com/NiranjankumarKatragadda/serdes-8b10b-prbs-cocotb-vip)
+
+### Studio Templates (`nk-verif-labs`)
+- **[cocotb-dual-sim-template](https://github.com/nk-verif-labs/cocotb-dual-sim-template)** — One-click Cocotb + Verilator + Icarus Verilog CI starter
+- **[librelane-pdk-ci-template](https://github.com/nk-verif-labs/librelane-pdk-ci-template)** — LibreLane (IHP SG13G2) RTL-to-GDSII + RTL/GL Cocotb + GDS upload template
