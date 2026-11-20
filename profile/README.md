@@ -32,6 +32,7 @@ We build verification environments that catch bugs early, and push open-source s
 | --- | --- |
 | [`cocotb-dual-sim-template`](https://github.com/nk-verif-labs/cocotb-dual-sim-template) | Cocotb + Verilator + Icarus Verilog dual-simulator CI starter |
 | [`librelane-pdk-ci-template`](https://github.com/nk-verif-labs/librelane-pdk-ci-template) | LibreLane RTL-to-GDSII (IHP SG13G2 / Sky130) with dual-sim cocotb CI |
+| [`sky130-cf-precheck-template`](https://github.com/nk-verif-labs/sky130-cf-precheck-template) | Sky130 Caravel `io_oeb` wrapper sanity + dual-sim pre-shuttle starter |
 
 Click **Use this template** on either repo to get a working CI setup in minutes.
 
@@ -40,6 +41,8 @@ Click **Use this template** on either repo to get a working CI setup in minutes.
 ## Selected work
 
 **Physical design**
+- [6G LDPC Min-Sum Decoder (ASAP7 7nm, 1.203 GHz, 0 DRC, LEC PASS)](https://github.com/nk-verif-labs/asap7-6g-ldpc-decoder)
+- [6G Baseband TX (GF180MCU, 6.4 Gbps, 0 DRC, Clean LVS)](https://github.com/nk-verif-labs/gf180-6g-baseband-tx)
 - [5-Stage RV32I SoC (Sky130, 13/13 cf-precheck)](https://github.com/NiranjankumarKatragadda/riscv-rv32i-physical-design)
 - [4x4 Systolic Array (IHP SG13G2)](https://github.com/NiranjankumarKatragadda/ihp-sg13g2-systolic-array)
 - [16-Beat AXI4 DMA (IHP SG13G2)](https://github.com/NiranjankumarKatragadda/ihp-sg13g2-axi4-dma)
