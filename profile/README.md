@@ -41,6 +41,7 @@ Click **Use this template** on either repo to get a working CI setup in minutes.
 ## Selected work
 
 **Physical design**
+- [128 Gbps AES-256-GCM Engine (ASAP7 7nm, Dual-Sim Cocotb CI)](https://github.com/nk-verif-labs/asap7-aes256-gcm-100g)
 - [6G LDPC Min-Sum Decoder (ASAP7 7nm, 1.203 GHz, 0 DRC, LEC PASS)](https://github.com/nk-verif-labs/asap7-6g-ldpc-decoder)
 - [6G Baseband TX (GF180MCU, 6.4 Gbps, 0 DRC, Clean LVS)](https://github.com/nk-verif-labs/gf180-6g-baseband-tx)
 - [5-Stage RV32I SoC (Sky130, 13/13 cf-precheck)](https://github.com/NiranjankumarKatragadda/riscv-rv32i-physical-design)
